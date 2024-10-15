@@ -1,6 +1,6 @@
-let basemap = L.tileLayer(
-    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+let basemap = L.tileLayer( 
+    "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://opentopomap.org">OpenTopoMap</a> contributors, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
 
 let map = L.map("map", {
